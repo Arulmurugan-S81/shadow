@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f9;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #1e3a8a;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.sidebar button:hover {
+  background: #2563eb;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, select, textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px;
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+
+.delete-btn {
+  background: red;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.step-card {
+  background: #eef2ff;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.rule-row {
+  display: flex;
+  gap: 10px;
+}
+
+textarea {
+  height: 140px;
+}
+
+.output {
+  background: black;
+  color: lime;
+  padding: 10px;
+}
